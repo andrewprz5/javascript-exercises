@@ -1,16 +1,11 @@
-
-const para = document.createElement("p");
-para.textContent = ' ';
-
 const repeatString = function(string, num) {
-  for (let i = 0; i < num; i++) {
-    para.textContent += string;
-  }
+    var text = '';
+    for (let i = 0; i < num; i++) {
+      text += string;
+    }
 
-  document.body.appendChild(para);
+    return text;
 };
-  
-repeatString('hey', 3);
 
 
 
