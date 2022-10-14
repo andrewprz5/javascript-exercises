@@ -8,7 +8,7 @@ const removeFromArray = function(arr) {
       } 
     }
   }
-  console.log(arr);
+  return arr;
 };
 
 removeFromArray([1,2,3,4], 3);
