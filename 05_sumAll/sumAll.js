@@ -10,11 +10,11 @@ const sumAll = function(first, second) {
       finalSum += i;
     } 
     if (lowerNum < 0 || higherNum < 0) {
-      console.log("ERROR");
+      return "ERROR"
     } else if (typeof lowerNum == "number" && typeof higherNum == "number") {
-      console.log(finalSum);
+      return finalSum
     } else {
-      console.log("ERROR");
+      return "ERROR";
     }
 }; 
 
